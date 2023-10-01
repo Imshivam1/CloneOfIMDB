@@ -52,7 +52,7 @@ To use the IMDb Clone web application, follow these steps:
    ```shell
    git clone https://github.com/Imshivam1/imdb-clone.git
 
-CUSTOMIZATION
+## Customization
 
 You can customize the IMDb Clone project by making the following changes:
 
