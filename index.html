@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1013d8b8e8.js" crossorigin="anonymous"></script>
+    <title>IMDb Clone</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <img width="80" height="50" src="https://fainaidea.com/wp-content/uploads/2021/03/1200px-IMDB_Logo_2016.svg_.png" alt="IMDb Logo">
+                <div class="input-container">
+                    <input type="text" id="search-input" placeholder="Search...">
+                </div>
+                
+                <div class="fav-btn-wrapper">
+                    <button class="fav-btn btn">Favorite</button>
+                    <span id="fav-count">0</span>
+                </div>
+            </div>
+            <div id="fav-Box">
+                <span><a href="#">Close</a></span>
+                <ul class="fav-container">
+                    <li class="fav-movie-counter">Count: 0</li>
+                </ul>
+            </div>            
+        </nav>       
+    </header>
+    <main>
+        <div class="movie-list">
+        </div>
+        <div id="detail-Box">
+            <span><a href="#">Home</a></span>        
+            <div class="details-box">
+                <div class="movie-details">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
