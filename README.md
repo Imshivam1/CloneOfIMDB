@@ -11,7 +11,6 @@ This is an IMDb clone project that allows users to search for movies, view movie
 - [How to Use](#how-to-use)
 - [Customization](#customization)
 - [Author](#author)
-- [License](#license)
 
 ## Project Overview
 
